@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Proyectos con Adobe Photoshop de Antonio Manuel Guerra Pérez: tipografía, collage, coloreado de fotografía y mockups de vinilos para motos.">
+    <meta name="theme-color" content="#0f1016">
+    <title>Photoshop | Antonio Manuel Guerra Pérez</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400..800&family=Instrument+Sans:wght@400..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script>
+        /* Aplica el modo guardado antes de pintar la página, para evitar parpadeos */
+        try { if (localStorage.getItem("portfolio-bw") === "1") document.documentElement.setAttribute("data-mode", "dark"); } catch (e) {}
+    </script>
+</head>
+<body id="top" class="theme-photoshop">
+    <a class="skip-link" href="#contenido">Saltar al contenido</a>
+
+            <header class="site-header">
+        <div class="site-header-inner">
+            <a class="site-brand" href="index.html" aria-label="Antonio Manuel Guerra Pérez, ir al inicio">
+                <span class="brand-mark" aria-hidden="true">AG</span>
+                <span class="brand-name"><span>Antonio Manuel</span><span>Guerra Pérez</span></span>
+            </a>
+
+            <nav class="site-nav" aria-label="Navegación principal">
+                <ul>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="sobre-mi.html">Sobre mí</a></li>
+                    <li><a href="illustrator.html">Illustrator</a></li>
+                    <li><a href="photoshop.html" aria-current="page">Photoshop</a></li>
+                </ul>
+            </nav>
+
+            <button class="mode-toggle" type="button" role="switch" aria-checked="false" aria-label="Modo oscuro" data-mode-toggle>
+                <span class="mode-icon" aria-hidden="true"></span>
+                <span class="mode-opt mode-opt--light" aria-hidden="true">Claro</span>
+                <span class="mode-opt mode-opt--dark" aria-hidden="true">Oscuro</span>
+            </button>
+        </div>
+    </header>
+
+        <main id="contenido">
+            <header class="page-hero">
+                <div class="wrap">
+                    <h1 class="page-title">Photoshop</h1>
+                    <p class="page-lede">Trabajos de tipografía, collage, coloreado de fotografía y mockups de vinilos para motos, hechos con Adobe Photoshop.</p>
+
+                    <nav class="page-index" aria-label="Secciones de esta página">
+                        <a href="#trabajo-clase">Trabajo de clase</a>
+                        <a href="#trabajo-practicas">Trabajo de prácticas</a>
+                    </nav>
+                </div>
+            </header>
+
+                <!-- BLOQUE 1: TRABAJO DE CLASE -->
+                <section class="project" id="trabajo-clase" aria-labelledby="t-clase">
+                    <div class="wrap project-inner">
+                    <div class="project-head">
+                    <h2 class="project-title" id="t-clase">Trabajo de clase</h2>
+                    </div>
+                    <div class="project-content">
+                    <div class="project-body panels">
+                        <div>
+                            <h3 class="panel-title">Trabajo con tipografías</h3>
+                            <div class="carousel" data-carousel style="--ratio: 4 / 5;">
+                                <div class="carousel-viewport">
+                                    <figure class="carousel-slide is-active">
+                                        <img src="assets/tipo1.png" alt="Diseño tipográfico 1: Vivanda, comer sano">
+                                    </figure>
+                                    <figure class="carousel-slide">
+                                        <img src="assets/tipo2.png" alt="Diseño tipográfico 2: bronceador protector Tepezcohuite">
+                                    </figure>
+                                    <figure class="carousel-slide">
+                                        <img src="assets/tipo3.png" alt="Diseño tipográfico 3: cartel del Edmonton Folk Music Festival">
+                                    </figure>
+                                    <figure class="carousel-slide">
+                                        <img src="assets/tipo4.png" alt="Diseño tipográfico 4: dieta deportiva">
+                                    </figure>
+                                    <figure class="carousel-slide">
+                                        <img src="assets/tipo5.png" alt="Diseño tipográfico 5: Hello Summer, colección de zapatos">
+                                    </figure>
+                                    <figure class="carousel-slide">
+                                        <img src="assets/tipo6.png" alt="Diseño tipográfico 6: cartel Ángel Ganivet">
+                                    </figure>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div>
+                            <h3 class="panel-title">Recreación de una portada de un disco musical</h3>
+                            <figure class="compare compare--square" data-compare>
+                                <img class="compare-img" src="assets/visiontunel1.png" alt="Portada Visión Túnel, primera versión" loading="lazy" decoding="async">
+                                <img class="compare-img compare-after" src="assets/visiontunel2.png" alt="Portada Visión Túnel, segunda versión" loading="lazy" decoding="async">
+                                <span class="compare-line" aria-hidden="true">
+                                    <span class="compare-knob"><svg viewBox="0 0 24 24"><path d="M9 6l-6 6 6 6M15 6l6 6-6 6"/></svg></span>
+                                </span>
+                                <input class="compare-range" type="range" min="0" max="100" value="50" aria-label="Deslizar para comparar las dos versiones de la portada">
+                            </figure>
+                        </div>
+                    </div>
+
+                    <div class="project-body">
+                        <div class="gallery">
+                            <figure class="tile tile--large">
+                                <img src="assets/collage.png" alt="Trabajo de collage digital" loading="lazy" decoding="async">
+                                <figcaption>Trabajo de collage</figcaption>
+                            </figure>
+                            <figure class="tile tile--large">
+                                <img src="assets/blancoynegroacolor.png" alt="Fotografía en blanco y negro coloreada" loading="lazy" decoding="async">
+                                <figcaption>Colorear una foto en blanco y negro</figcaption>
+                            </figure>
+                        </div>
+                    </div>
+                    </div>
+                    </div>
+                </section>
+
+                <!-- BLOQUE 2: TRABAJO DE PRÁCTICAS -->
+                <section class="project" id="trabajo-practicas" aria-labelledby="t-practicas">
+                    <div class="wrap project-inner">
+                    <div class="project-head">
+                    <h2 class="project-title" id="t-practicas">Trabajo de prácticas</h2>
+                    <p class="project-lede">Mockups de vinilos decorativos sobre motos.</p>
+                    </div>
+                    <div class="project-content">
+                    <div class="project-body panels">
+                        <div>
+                            <h3 class="panel-title">Mockup Yamaha R9</h3>
+                            <figure class="compare" data-compare>
+                                <img class="compare-img" src="assets/r9PegatinasSIN.jpg" alt="Yamaha R9 de serie" loading="lazy" decoding="async">
+                                <img class="compare-img compare-after" src="assets/r9Mockup.jpg" alt="Yamaha R9 con vinilos decorativos" loading="lazy" decoding="async">
+                                <span class="compare-tag compare-tag--left">Con vinilos</span>
+                                <span class="compare-tag compare-tag--right">De serie</span>
+                                <span class="compare-line" aria-hidden="true">
+                                    <span class="compare-knob"><svg viewBox="0 0 24 24"><path d="M9 6l-6 6 6 6M15 6l6 6-6 6"/></svg></span>
+                                </span>
+                                <input class="compare-range" type="range" min="0" max="100" value="50" aria-label="Deslizar para comparar la Yamaha R9 de serie y con vinilos">
+                            </figure>
+                        </div>
+
+                        <div>
+                            <h3 class="panel-title">Variaciones de pegatinas Kawasaki Ninja</h3>
+                            <div class="carousel carousel--light" data-carousel style="--ratio: 16 / 9;">
+                                <div class="carousel-viewport">
+                                    <figure class="carousel-slide is-active">
+                                        <img src="assets/KasakiNinja2026.png" alt="Kawasaki Ninja 2026 en azul y verde">
+                                    </figure>
+                                    <figure class="carousel-slide">
+                                        <img src="assets/KasakiNinja2026PegatinasGrisyVerde.png" alt="Kawasaki Ninja 2026 en gris y verde">
+                                    </figure>
+                                    <figure class="carousel-slide">
+                                        <img src="assets/KasakiNinja2026PegatinasRojasBien.png" alt="Kawasaki Ninja 2026 con detalles rojos">
+                                    </figure>
+                                    <figure class="carousel-slide">
+                                        <img src="assets/KasakiNinja2026PegatinasNegro.png" alt="Kawasaki Ninja 2026 con detalles negros">
+                                    </figure>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div>
+                            <h3 class="panel-title">Mockup BMW GS</h3>
+                            <figure class="compare" data-compare>
+                                <img class="compare-img" src="assets/bmw.png" alt="BMW GS 1250 de serie" loading="lazy" decoding="async">
+                                <img class="compare-img compare-after" src="assets/bmwmockup.png" alt="BMW GS 1250 con vinilos decorativos" loading="lazy" decoding="async">
+                                <span class="compare-tag compare-tag--left">Con vinilos</span>
+                                <span class="compare-tag compare-tag--right">De serie</span>
+                                <span class="compare-line" aria-hidden="true">
+                                    <span class="compare-knob"><svg viewBox="0 0 24 24"><path d="M9 6l-6 6 6 6M15 6l6 6-6 6"/></svg></span>
+                                </span>
+                                <input class="compare-range" type="range" min="0" max="100" value="50" aria-label="Deslizar para comparar la BMW GS de serie y con vinilos">
+                            </figure>
+                        </div>
+
+                        <div>
+                            <h3 class="panel-title">Mockup KTM Superduke</h3>
+                            <figure class="tile">
+                                <img src="assets/MotoKtmNegra.png" alt="Mockup de la KTM Superduke 1290 R" loading="lazy" decoding="async">
+                            </figure>
+                        </div>
+                    </div>
+                    </div>
+                    </div>
+                </section>
+
+                <footer class="site-footer">
+                    <div class="wrap site-footer-inner">
+                        <span>© 2026 Antonio Manuel Guerra Pérez. 2º Diseño y edición de publicaciones impresas y multimedia.</span>
+                        <a href="#top">Volver arriba</a>
+                    </div>
+                </footer>
+        </main>
+
+    <div class="lightbox" id="lightbox" aria-hidden="true" role="dialog" aria-modal="true" aria-label="Imagen ampliada">
+        <button class="lightbox-close" type="button" aria-label="Cerrar imagen">✕</button>
+        <button class="lightbox-prev" type="button" aria-label="Imagen anterior">‹</button>
+        <button class="lightbox-next" type="button" aria-label="Imagen siguiente">›</button>
+        <img class="lightbox-img" src="" alt="">
+    </div>
+
+    <script src="script.js" defer></script>
+</body>
+</html>

@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Antonio Manuel Guerra Pérez, estudiante de Diseño y edición de publicaciones impresas y multimedia. Formación y herramientas.">
+    <meta name="theme-color" content="#0f1016">
+    <title>Sobre mí | Antonio Manuel Guerra Pérez</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400..800&family=Instrument+Sans:wght@400..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script>
+        /* Aplica el modo guardado antes de pintar la página, para evitar parpadeos */
+        try { if (localStorage.getItem("portfolio-bw") === "1") document.documentElement.setAttribute("data-mode", "dark"); } catch (e) {}
+    </script>
+</head>
+<body class="theme-sobremi">
+    <a class="skip-link" href="#contenido">Saltar al contenido</a>
+
+            <header class="site-header">
+        <div class="site-header-inner">
+            <a class="site-brand" href="index.html" aria-label="Antonio Manuel Guerra Pérez, ir al inicio">
+                <span class="brand-mark" aria-hidden="true">AG</span>
+                <span class="brand-name"><span>Antonio Manuel</span><span>Guerra Pérez</span></span>
+            </a>
+
+            <nav class="site-nav" aria-label="Navegación principal">
+                <ul>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="sobre-mi.html" aria-current="page">Sobre mí</a></li>
+                    <li><a href="illustrator.html">Illustrator</a></li>
+                    <li><a href="photoshop.html">Photoshop</a></li>
+                </ul>
+            </nav>
+
+            <button class="mode-toggle" type="button" role="switch" aria-checked="false" aria-label="Modo oscuro" data-mode-toggle>
+                <span class="mode-icon" aria-hidden="true"></span>
+                <span class="mode-opt mode-opt--light" aria-hidden="true">Claro</span>
+                <span class="mode-opt mode-opt--dark" aria-hidden="true">Oscuro</span>
+            </button>
+        </div>
+    </header>
+
+        <main id="contenido">
+            <section class="about">
+                <img class="about-bg" src="assets/Gifsobremi.gif" alt="">
+
+                <div class="about-card">
+                    <h1>Sobre mí</h1>
+
+                    <div class="about-text">
+                        <p>
+                            Me interesa la edición gráfica y audiovisual, un ámbito que me llama la atención desde hace mucho tiempo. Me manejo con la tecnología desde siempre y, además, he estudiado sistemas microinformáticos y redes locales.
+                        </p>
+                        <p>
+                            Actualmente, en el ciclo de Diseño y edición de publicaciones impresas y multimedia, aprendo a manejar con más soltura las aplicaciones de Adobe. Aunque todavía no tengo mucha experiencia, mejoro poco a poco con cada proyecto y con ganas de seguir formándome y creciendo.
+                        </p>
+                    </div>
+
+                    <div class="about-grid">
+                        <div>
+                            <h2>Formación</h2>
+                            <ul>
+                                <li>
+                                    F.P.G.S. Diseño y edición de publicaciones impresas y multimedia
+                                    <small>2º curso, en marcha</small>
+                                </li>
+                                <li>Sistemas microinformáticos y redes locales</li>
+                            </ul>
+                        </div>
+
+                        <div>
+                            <h2>Herramientas</h2>
+                            <ul class="chips">
+                                <li>Adobe Photoshop</li>
+                                <li>Adobe Illustrator</li>
+                                <li>Adobe InDesign</li>
+                                <li>Adobe Bridge</li>
+                                <li>Adobe Camera Raw</li>
+                            </ul>
+                        </div>
+
+                        <!--
+                        CONTACTO (descomenta este bloque y pon tus datos reales
+                        antes de enviarlo a las empresas):
+
+                        <div>
+                            <h2>Contacto</h2>
+                            <ul>
+                                <li><a href="mailto:TU-CORREO">TU-CORREO</a></li>
+                                <li><a href="https://www.linkedin.com/in/TU-PERFIL">LinkedIn</a></li>
+                            </ul>
+                        </div>
+                        -->
+                    </div>
+                </div>
+            </section>
+        </main>
+
+    <div class="lightbox" id="lightbox" aria-hidden="true" role="dialog" aria-modal="true" aria-label="Imagen ampliada">
+        <button class="lightbox-close" type="button" aria-label="Cerrar imagen">✕</button>
+        <button class="lightbox-prev" type="button" aria-label="Imagen anterior">‹</button>
+        <button class="lightbox-next" type="button" aria-label="Imagen siguiente">›</button>
+        <img class="lightbox-img" src="" alt="">
+    </div>
+
+    <script src="script.js" defer></script>
+</body>
+</html>
